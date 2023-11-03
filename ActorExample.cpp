@@ -12,6 +12,8 @@ HRESULT ActorExample::Initialize(HINSTANCE hInstance, LPCWSTR title, UINT width,
     return S_OK;
 } 
 
+//이걸가지고 로드 비트맵 만들기(?)
+
 void ActorExample::Release()
 {
     mspBug.reset();
